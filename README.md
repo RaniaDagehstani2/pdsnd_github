@@ -1,17 +1,18 @@
 >**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
 
 ### Date created
-Include the date you created this project and README file.
-
+12-11-2026
 ### Project Title
-Replace the Project Title
-
+Bike Share Data Analysis
 ### Description
-Describe what your project is about and what it does
-
+This project uses `Python` to explore and analyze _bike-sharing_ data from **New York City**.
 ### Files used
-Include the files used
+**bikeshare.py** – `Python` script used to explore and analyze the _bike-sharing_ data.
 
+**new_york_city.csv** – Dataset containing _bike-sharing_ trip information for **New York City**.
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+**Created by**: Rania Daghestani
 
+This project is based on the original **Udacity repository**.
+
+**Original Repository**: https://github.com/udacity/pdsnd_github 
