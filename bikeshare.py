@@ -6,7 +6,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
 
-def get_filters():
+def filters():
     """
     Asks user to specify a city, month, and day to analyze.
 
@@ -114,13 +114,13 @@ def user_stats(df):
     # Display earliest, most recent, and most common year of birth
 
 
-    print("\nThis took %s seconds." % (time.time() - start_time))
+    print(f"\nThis took {time.time() - start_time:.2f} seconds.")
     print('-'*40)
 
 # Run the bikeshare analysis program.
 def main():
     while True:
-        city, month, day = get_filters()
+        city, month, day = filters()
         df = load_data(city, month, day)
 
         time_stats(df)
